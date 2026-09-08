@@ -19,7 +19,7 @@ import java.io.IOException
  */
 object BackendClient {
 
-    private const val BACKEND_URL = "https://REPLACE-WITH-YOUR-NETLIFY-SITE.netlify.app/.netlify/functions/chat"
+    private const val BACKEND_URL =  "https://framex-assistant.netlify.app/.netlify/functions/chat"
 
     private val client = OkHttpClient()
 
