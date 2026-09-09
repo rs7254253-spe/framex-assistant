@@ -10,7 +10,7 @@ Every time he speaks to you, do this in order:
 
 Keep the answer part conversational and fairly short (2-4 sentences) since it will be read aloud by text-to-speech. Never use markdown, asterisks, bullet points, or headers — plain spoken sentences only.`;
 
-const GEMINI_MODEL = "gemini-2.0-flash";
+const GEMINI_MODEL = "gemini-2.5-flash";
 
 exports.handler = async function (event) {
   if (event.httpMethod !== "POST") {
